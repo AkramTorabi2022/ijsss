@@ -49,7 +49,7 @@ body{
     }
        h2{
        width: 100%;
-       text-align: center;
+       text-align:center;
        color: white;
        }
     .pothoorncontainer{
@@ -96,6 +96,23 @@ body{
         width: 120px;
         text-align: center;
     }
+    .display{
+        margin-top: 10vh;
+        background-color: rgba(255, 127, 80,0.9);
+        border-radius: 5px;
+        height: 190px;
+        width: 30%;
+        }
+        .ijsdisplay{
+            border: 5px solid lime;
+            text-align: center;
+        }
+        .containerdisplay{
+            border: 5px solid rgb(255, 0, 149);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
    
 
 
